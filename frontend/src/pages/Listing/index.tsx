@@ -1,10 +1,9 @@
 import MovieCard from "components/Navbar/MovieCard";
 import Pagination from "components/Navbar/Pagination";
-import { Fragment } from "react";
 
 function Listing() {
     return (
-        <Fragment>
+        <>
             <Pagination />
 
             <div className="container">
@@ -27,7 +26,7 @@ function Listing() {
                 </div>
             </div>
 
-        </Fragment >
+        </>
     )
 }
 
